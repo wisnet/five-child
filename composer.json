@@ -1,0 +1,26 @@
+{
+  "name": "wisnet/five",
+  "description": "Child theme to build a wisnet Five starter theme",
+  "type": "wordpress-theme",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Michael Dahlke",
+      "email": "mdahlke@wisnet.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/mdahlke/atomic-docs.git"
+    },
+    {
+      "type": "git",
+      "url": "git@bitbucket.org:wisnet/debugalias.git"
+    }
+  ]
+}
