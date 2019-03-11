@@ -33,7 +33,7 @@ file will **need to match the block name** (but without spaces/hyphens/underscor
 
 *Example:*  
 If we have a block for recent posts  
-**Title:** Recent Posts   
+**Title:** Recent Posts   git@github.com:wisnet/five-child.git
 **Name:** recent-posts  
 **File Name (Controller):** `RecentPosts.php` (follows the "Name" of the template but uses [Upper Camel Case](http://wiki.c2.com/?UpperCamelCase))  
 
