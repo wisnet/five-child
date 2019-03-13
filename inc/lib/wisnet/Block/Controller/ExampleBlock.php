@@ -13,8 +13,8 @@ namespace wisnet\Child\Block\Controller;
 use wisnet\Block\Controller\Base;
 
 class ExampleBlock extends Base {
-	protected $name = 'butt';
-	protected $title = 'Butt';
+	protected $name = 'example-block';
+	protected $title = 'Example Block';
 	protected $description = 'A generic block that acts as a catch-all for blocks that do not need any special processing.';
 	protected $category = 'formatting';
 	protected $icon = 'editor-bold';
