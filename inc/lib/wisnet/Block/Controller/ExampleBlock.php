@@ -8,9 +8,11 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Block\Controller;
+namespace wisnet\Child\Block\Controller;
 
-class Butt extends Base {
+use wisnet\Block\Controller\Base;
+
+class ExampleBlock extends Base {
 	protected $name = 'butt';
 	protected $title = 'Butt';
 	protected $description = 'A generic block that acts as a catch-all for blocks that do not need any special processing.';
