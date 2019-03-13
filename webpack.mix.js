@@ -30,15 +30,9 @@ const production = mix.inProduction();
 const devtool = production ? false : 'source-map';
 
 mix.webpackConfig({
-	plugins: [
-		new webpack.ProvidePlugin({
-			$: 'jquery',
-			jQuery: 'jquery',
-			Vue: ['vue/dist/vue.esm.js', 'default']
-		})
-	],
 	devtool: devtool
 });
+
 if (production) {
 	mix.sourceMaps();
 }
