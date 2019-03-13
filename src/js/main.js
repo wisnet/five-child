@@ -1,19 +1,23 @@
-// import $ from 'jquery';
-// import 'bootstrap';
-import debug from './debug.js';
-import flash from './flash.js';
+import flash from 'flash';
 import axios from 'axios';
 
+flash.message = {
+	status: 'success',
+	content: 'Hello',
+	showTime: 2000,
+	dismisable: true
+};
 
-debug('scripts running');
+// flash.displayMessage();
 
-// ajaxr({
-// 	url: wajax.url,
-// 	data: {
-// 		action: 'text'
-// 	}
-// }).send().then(function (e, d) {
-// 	debug(e, d);
-// }).catch(function (e) {
-// 	debug(e);
-// });
+console.log('scripts running');
+
+axios.get(wajax.url, {
+	params: {
+		action: 'test'
+	}
+}).then(function (e, d) {
+	console.log(e, d);
+}).catch(function (e) {
+	console.log(e);
+});

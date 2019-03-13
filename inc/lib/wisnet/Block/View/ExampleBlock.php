@@ -1,6 +1,6 @@
 <?php
 /**
- * File: Heading.php
+ * File: ExampleBlock.php
  * Date: 2019-01-02
  * Time: 09:50
  *
@@ -8,9 +8,11 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Block\View;
+namespace wisnet\Child\Block\View;
 
-class Butt extends Base {
+use wisnet\Block\View\Base;
+
+class ExampleBlock extends Base {
 	public $content = '';
 
 	public function __construct(array $acfBlock, array $fields = []) {
@@ -26,12 +28,11 @@ class Butt extends Base {
 
 	/**
 	 * @param string $content
-	 * @return Butt
+	 * @return ExampleBlock
 	 */
-	public function setContent(string $content): Butt {
+	public function setContent(string $content): ExampleBlock {
 		$this->content = $content;
 		return $this;
 	}
-
 
 }

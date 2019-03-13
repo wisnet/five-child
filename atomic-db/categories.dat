@@ -24,15 +24,15 @@
         "order": 3
     },
     {
-        "category": "blocks",
-        "order": 7
-    },
-    {
         "category": "pages",
         "order": 8
     },
     {
         "category": "embeds",
         "order": 6
+    },
+    {
+        "category": "blocks",
+        "order": 7
     }
 ]

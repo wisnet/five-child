@@ -88,22 +88,6 @@
         "has_js": "false"
     },
     {
-        "component": "slideshow",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -10,
-        "has_js": "false"
-    },
-    {
-        "component": "recent-posts",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -11,
-        "has_js": "false"
-    },
-    {
         "component": "home",
         "category": "pages",
         "description": "",
@@ -120,75 +104,11 @@
         "has_js": "false"
     },
     {
-        "component": "hours",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -14,
-        "has_js": "false"
-    },
-    {
-        "component": "heading",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -15,
-        "has_js": "false"
-    },
-    {
         "component": "bootstrap-blocks",
         "category": "third-party",
         "description": "",
         "backgroundColor": "",
         "order": 3,
-        "has_js": "false"
-    },
-    {
-        "component": "container",
-        "category": "embeds",
-        "description": "",
-        "backgroundColor": "",
-        "order": -17,
-        "has_js": "false"
-    },
-    {
-        "component": "row",
-        "category": "embeds",
-        "description": "",
-        "backgroundColor": "",
-        "order": -18,
-        "has_js": "false"
-    },
-    {
-        "component": "column",
-        "category": "embeds",
-        "description": "",
-        "backgroundColor": "",
-        "order": -19,
-        "has_js": "false"
-    },
-    {
-        "component": "side-by-side",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -20,
-        "has_js": "false"
-    },
-    {
-        "component": "media-text",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -21,
-        "has_js": "false"
-    },
-    {
-        "component": "butt",
-        "category": "blocks",
-        "description": "",
-        "backgroundColor": "",
-        "order": -22,
         "has_js": "false"
     }
 ]

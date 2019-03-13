@@ -8,8 +8,6 @@
  * @since   Timber 0.1
  */
 
-use wisnet\App;
-
 //
 ///**
 // * Path to Atomic docs
@@ -71,3 +69,14 @@ add_filter('wisnet/register_acf_blocks', function ($blocks) {
 	$blocks['acf/butt'] = 'Butt';
 	return $blocks;
 }, 9, 1);
+
+/**
+ * Add more ajax routes
+ */
+add_filter('wisnet/ajax_routes', function ($routes) {
+	$routes['child_test'] = ['\wisnet\Child\Controller\Ajax\test', 'test'];
+
+	return $routes;
+});
+
+//Routes::map('')

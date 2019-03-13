@@ -1,6 +1,6 @@
 <?php
 /**
- * File: Heading.php
+ * File: ExampleBlock.php
  * Date: 2019-01-02
  * Time: 09:47
  *

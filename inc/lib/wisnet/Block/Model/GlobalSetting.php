@@ -1,6 +1,6 @@
 <?php
 /**
- * File: Setting.php
+ * File: GlobalSetting.php
  * Date: 2019-01-09
  * Time: 20:40
  *

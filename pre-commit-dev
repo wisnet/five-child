@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Make sure you make this file executable
+# chmod +x pre-commit
+
+# how are the vars assigned?
+# we grab the first result of the given search string. 
+# This allows you do have multiple definitions of a config definition
+# i.e. staging, dev sites, etc...
+
+# `cat {the_filename} | grep {the_value in the DEFINE()} | {find only the first result and stop} | {get the value}
+
+cp .git/hooks/pre-commit ./pre-commit-dev
+
+npm run prod
+
+git add pre-commit-dev dist/
+
+exit 0

@@ -18,6 +18,7 @@
     "bootstrap": "^4.3.1",
     "cross-env": "^5.2.0",
     "file-system": "^2.2.2",
+    "flash": "git+https://github.com/mdahlke/flash.git",
     "fs": "0.0.1-security",
     "jquery": "^3.3.1",
     "jquery-ui": "^1.12.1",

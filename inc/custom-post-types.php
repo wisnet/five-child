@@ -10,7 +10,7 @@
 
 function cptui_register_my_cpts() {
 	/**
-	 * Post Type: Team Members.
+	 * Post Type: EXAMPLE.
 	 */
 
 	$labels = [
@@ -48,7 +48,7 @@ function cptui_register_my_cpts() {
 		'supports' => ['title', 'editor', 'thumbnail', 'comments'],
 	];
 
-	register_post_type('team_member', $args);
+//	register_post_type('team_member', $args);
 }
 
 add_action('init', 'cptui_register_my_cpts');
