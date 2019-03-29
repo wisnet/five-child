@@ -1,0 +1,9 @@
+{% extends 'blocks/block.twig' %}
+
+{% block content %}
+    {% embed 'crb.twig' %}
+        {% block content %}
+            {{ fields.content }}
+        {% endblock %}
+    {% endembed %}
+{% endblock %}

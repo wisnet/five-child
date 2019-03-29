@@ -72,8 +72,11 @@ function five_child_block_editor($js, $css, $extra) {
 	}
 }
 
+/**
+ * Register new ACF blocks
+ */
 add_filter('wisnet/register_acf_blocks', function ($blocks) {
-	$blocks['acf/post-grid'] = 'PostGrid';
+	$blocks['acf/example-block'] = 'ExampleBlock';
 
 	return $blocks;
 }, 999, 1);

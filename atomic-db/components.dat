@@ -110,5 +110,13 @@
         "backgroundColor": "",
         "order": 3,
         "has_js": "false"
+    },
+    {
+        "component": "example-block",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": -13,
+        "has_js": "false"
     }
 ]

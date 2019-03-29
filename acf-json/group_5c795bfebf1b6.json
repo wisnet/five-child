@@ -27,7 +27,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/butt"
+                "value": "acf\/example-block"
             }
         ]
     ],
@@ -39,5 +39,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1551459779
+    "modified": 1553869754
 }

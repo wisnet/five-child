@@ -10,6 +10,10 @@
 
 namespace wisnet\Block\Model;
 
+/**
+ * Class GlobalSettingChild
+ * @package wisnet\Block\Model
+ */
 class GlobalSettingChild extends GlobalSetting {
 
 }

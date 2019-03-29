@@ -10,6 +10,10 @@
 
 namespace wisnet\Block\Controller;
 
+/**
+ * Class ExampleBlock
+ * @package wisnet\Block\Controller
+ */
 class ExampleBlock extends Base {
 	protected $name = 'example-block';
 	protected $title = 'Example Block';
@@ -19,7 +23,6 @@ class ExampleBlock extends Base {
 	protected $keywords = ['block'];
 
 	public function __construct() {
-		add_action('acf/init', [$this, 'register']);
 		parent::__construct();
 	}
 }

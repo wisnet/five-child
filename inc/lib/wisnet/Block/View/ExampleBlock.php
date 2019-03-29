@@ -10,6 +10,10 @@
 
 namespace wisnet\Block\View;
 
+/**
+ * Class ExampleBlock
+ * @package wisnet\Block\View
+ */
 class ExampleBlock extends Base {
 	public $content = '';
 

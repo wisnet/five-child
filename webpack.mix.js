@@ -33,7 +33,7 @@ mix.webpackConfig({
 	devtool: devtool
 });
 
-if (production) {
+if (!production) {
 	mix.sourceMaps();
 }
 
