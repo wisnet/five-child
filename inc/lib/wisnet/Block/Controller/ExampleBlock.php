@@ -8,9 +8,7 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Child\Block\Controller;
-
-use wisnet\Block\Controller\Base;
+namespace wisnet\Block\Controller;
 
 class ExampleBlock extends Base {
 	protected $name = 'example-block';

@@ -8,9 +8,7 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Child\Block\View;
-
-use wisnet\Block\View\Base;
+namespace wisnet\Block\View;
 
 class ExampleBlock extends Base {
 	public $content = '';

@@ -8,10 +8,8 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Child\Block\Model;
+namespace wisnet\Block\Model;
 
-use wisnet\Block\View\Base;
-
-class GlobalSetting extends Base {
+class GlobalSettingChild extends GlobalSetting {
 
 }

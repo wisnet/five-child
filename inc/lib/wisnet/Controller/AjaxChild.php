@@ -8,9 +8,9 @@
  * @author Michael Dahlke <mdahlke@wisnet.com>
  */
 
-namespace wisnet\Child\Controller;
+namespace wisnet\Controller;
 
-class Ajax extends \wisnet\Controller\Ajax {
+class AjaxChild extends \wisnet\Controller\Ajax {
 
 	public static function test() {
 		wp_send_json_success(['message' => 'hi']);
