@@ -20,3 +20,14 @@ This is the child theme to *[wisnet Five](https://github.com/wisnet/five)*. You 
 * [Bootstrap 4.2](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
 
 
+## Custom Post Types
+Any new custom post types need to reside in `inc/custom-post-types.php`
+
+## Custom Taxonomies
+Any new custom taxonomies need to reside in `inc/custom-taxonomies.php`
+
+## Custom Fields (ACF)
+You can create the custom fields using ACF's editor. Make sure the `acf-json` directory exists so those fields can be saved to that directory. This way when pushing to the production site the fields will not need to be re-created!
+
+## SCSS
+All SCSS must be broken up in a logical way so that we are not creating one large SCSS file that is difficult to read through. We utilize [Atomic Doc](http://atomicdocs.io/) which uses the [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) principle to help us with this.
