@@ -31,3 +31,6 @@ You can create the custom fields using ACF's editor. Make sure the `acf-json` di
 
 ## SCSS
 All SCSS must be broken up in a logical way so that we are not creating one large SCSS file that is difficult to read through. We utilize [Atomic Doc](http://atomicdocs.io/) which uses the [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) principle to help us with this.
+
+### SCSS/JS Build
+To compile the SCSS/JS run `npm run watch` while in *developement* while in the `/wp-content/themes/five-child` directory. For *production* run `npm run production`.
