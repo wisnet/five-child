@@ -29,7 +29,7 @@
     "file-system": "^2.2.2",
     "flash": "git+https://github.com/mdahlke/flash.git",
     "fs": "0.0.1-security",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "laravel-mix": "^4.0.12",
     "popper.js": "^1.14.6",
