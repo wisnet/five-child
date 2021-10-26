@@ -30,7 +30,7 @@
     "flash": "git+https://github.com/mdahlke/flash.git",
     "fs": "0.0.1-security",
     "jquery": "^3.3.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "laravel-mix": "^4.0.12",
     "popper.js": "^1.14.6",
     "pre-commit": "^1.2.2",
